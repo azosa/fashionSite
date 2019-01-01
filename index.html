@@ -25,18 +25,18 @@
             </ul>
         </nav>
      <header id="home" class="slider" role="banner">        
-        <button class="prev-btn slider-btn" onclick="prevClick()"><div></div></button>
+       
+         <div id="slides"> <button class="prev-btn slider-btn" onclick="prevClick()"><div></div></button>
         <button class="next-btn slider-btn" onclick="nextClick()"><div></div></button>
-         <div id="slides">
         <div class="slider-img"> <img class="sl-img" src="images/pexels-photo-1381558.jpeg" alt=""><h1 class="img-title animate">Women's fashion</h1></div>
         <div class="slider-img"> <img  class="sl-img" src="images/pexels-photo-179909.jpeg" alt=""><h1 class="img-title ">Jewellery</h1></div>
         <div class="slider-img"> <img  class="sl-img" src="images/pexels-photo-428340.jpeg" alt=""><h1 class="img-title ">Men's fashion</h1> </div>
-        </div>
-        <div class="dot-btns">
+            <div class="dot-btns">
         <button class="dot-btn active"></button>
         <button class="dot-btn"></button>
         <button class="dot-btn"></button>
-    </div>
+    </div></div>
+    
       </header>
       <section  class="section-center">
           <h2 class=" section-title main-color">Welcome to our shop</h2>
@@ -216,6 +216,15 @@
     </div>
 
     <script>
+let sl=document.querySelectorAll('.sl-img');
+
+sl.forEach(sl => {
+        sl.setAttribute("width",window.innerWidth);
+        sl.setAttribute("height","auto");
+  
+                             });     
+
+
 
     window.addEventListener('scroll', onscroll)
 
