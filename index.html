@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav id="nav" role="navigation">
+                <label for="toggle-mobile-menu" aria-label="Menu"> <span class=" icon-menu menu-icon" aria-hidden="true" data-icon="\e9bd"></span></label>
+                <input id="toggle-mobile-menu" type="checkbox" />
+            <ul class="nav" id="main-menu">
+               <li class="nav-item"><a class="on navi"  id="nav-home" href="#home">home</a></li>
+               <li class="nav-item"><a class=" navi" id="nav-designes"href="#designes">designes</a></li>
+               <li class="nav-item"><a class=" navi" id="nav-features"href="#features">features</a></li>
+               <li class="nav-item"><a class=" navi" id="nav-about" href="#about">about</a></li>
+               <li class="nav-item"><a class=" navi" id="nav-gallery"href="#gallery">gallery</a></li>
+               <li class="nav-item"><a class=" navi" id="nav-team"href="#team">team</a></li>
+               <li class="nav-item"><a class=" navi" id="nav-testimonials"href="#testimonials">testimonials</a></li>
+               <li class="nav-item"><a class=" navi" id="nav-contact" href="#contact">contact</a></li>
+            </ul>
+        </nav>
+     <header id="home" class="slider" role="banner">        
+        <button class="prev-btn slider-btn" onclick="prevClick()"><div></div></button>
+        <button class="next-btn slider-btn" onclick="nextClick()"><div></div></button>
+         <div id="slides">
+        <div class="slider-img"> <img class="sl-img" src="images/pexels-photo-1381558.jpeg" alt=""><h1 class="img-title animate">Women's fashion</h1></div>
+        <div class="slider-img"> <img  class="sl-img" src="images/pexels-photo-179909.jpeg" alt=""><h1 class="img-title ">Jewellery</h1></div>
+        <div class="slider-img"> <img  class="sl-img" src="images/pexels-photo-428340.jpeg" alt=""><h1 class="img-title ">Men's fashion</h1> </div>
+        </div>
+        <div class="dot-btns">
+        <button class="dot-btn active"></button>
+        <button class="dot-btn"></button>
+        <button class="dot-btn"></button>
+    </div>
+      </header>
+      <section  class="section-center">
+          <h2 class=" section-title main-color">Welcome to our shop</h2>
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, similique? Incidunt, eaque tempora qui alias corporis expedita illo quo id commodi veritatis odit velit? Ut cum illum delectus magni exercitationem!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laboriosam temporibus, ut distinctio reprehenderit dolor facilis sequi laudantium officiis asperiores error velit eveniet consequatur inventore quas rem enim possimus fugit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quos nostrum esse et doloribus delectus similique, repellendus saepe, blanditiis, illum maxime voluptatibus in ex. Earum ex recusandae veniam cumque veritatis.</p>
+      </section>
+      <section id="designes" class="section-center">
+          <h2 class=" section-title main-color">Fashion trends</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque maiores et nemo adipisci fugiat velit assumenda nisi exercitationem.</p>
+          <div class="grid">
+              <div class="grid-item shadow"> 
+                  <img class="grid-photo" src="images/gridphoto3.jpeg" alt="">
+                  <h3 class=" section-inner-title main-color">Women's fashion</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quas facere nulla itaque provident libero nihil molestias, laudantium explicabo. Quos consequatur laboriosam suscipit aliquam sunt magnam ipsa iste perferendis labore?</p>
+                  <button class="btn more-btn">SEE MORE</button></div>
+              <div class="grid-item shadow"> 
+                  <img class="grid-photo" src="images/gridphoto2.jpeg" alt="">
+                  <h3 class=" section-inner-title main-color">Men's fashion</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio soluta tempora quibusdam error! Aperiam hic incidunt possimus recusandae nisi explicabo minus perspiciatis cumque error, illum est quam dolorum laboriosam omnis. </p>
+                  <button class="btn more-btn">SEE MORE</button></div>
+              <div class="grid-item shadow"><img class="grid-photo"src="images/gridphoto1.jpeg" alt=""><h3 class=" section-inner-title main-color">Kid's fashion</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In voluptas beatae minus maiores dicta voluptates. Vel officiis consequuntur numquam quidem sit, dolor optio quisquam, fuga impedit, velit cupiditate vitae nam.</p><button class="btn more-btn">SEE MORE</button></div>
+          </div>
+      </section>
+      <section id="features" class="section-center">
+          <h2 class="section-title main-color">Features</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat pariatur dolores.</p>
+          <div class="grid">
+              
+              <div class="grid-item">
+                  <div class="feature-icon icon-airplane main-color" aria-hidden="true" data-icon="\e9af"></div><h3 class="section-inner-title main-color">Free shipping</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, voluptate molestias amet beatae eum neque perferendis qui esse facilis expedita odit tenetur voluptates porro sit ipsum ut quas, iure laborum.</p>
+                
+            </div>
+              <div class="grid-item">
+                    <div class="feature-icon icon-gift main-color" aria-hidden="true" data-icon="\e99f"></div><h3 class="section-inner-title main-color">Gift coupon</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis voluptatibus vel placeat nesciunt, nihil reiciendis nulla quis doloribus fugit, culpa ad incidunt suscipit repellendus, dicta quae. Numquam, hic illum?</p></div>
+              <div class="grid-item"> <div class="feature-icon icon-heart main-color" aria-hidden="true" data-icon="\e9da"></div><h3 class="section-inner-title main-color">Money back</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt corrupti quod quo, nisi architecto dolores quasi at suscipit recusandae natus, quas impedit a eveniet officiis veritatis, rerum laborum. Inventore.</p></div>
+          </div>
+      </section>
+      <section  id="about"class="section-wide">
+<img class="about-img" src="images/pexels-photo-1345082.jpeg" alt="">
+<div class="section-text">
+    <h2 class="section-title">About us</h2>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure temporibus aliquid, odit magnam veniam ipsam rerum libero placeat. Consequuntur libero magni dignissimos tempora velit sequi. Magni ratione expedita quo dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate error libero amet, expedita commodi minus quisquam sed perspiciatis, iste labore, repellat maxime reiciendis voluptate. Ut pariatur sunt nostrum facere esse?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa et eaque soluta ipsum enim fuga odit, commodi dolores cupiditate corrupti quos doloremque quae beatae modi. Delectus odio esse pariatur magnam.</p>
+<button class="dark-btn more-btn">gallery</button>
+</div>
+      </section>
+
+<section class="section-custom">
+
+<div class="grid">
+    <div class="video-text">
+    <h2 class="section-title main-color">Videos</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores architecto nostrum repudiandae suscipit mollitia aut soluta asperiores modi, praesentium ut iure, nemo expedita non deserunt hic. Officia itaque fugiat modi.</p></div>
+    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RKXGnDOM4Lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+      </section>
+      <section id="gallery"> 
+           <h2 class="section-title main-color">Gallery</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, commodi? Dolores dolorem facilis dolore iusto itaque blanditiis quod, ratione illum quo nemo est perferendis dicta repellendus ducimus voluptas cupiditate consequuntur.</p>
+          <div class="section-wide gallery">
+        
+           <div class="img-gallery-zoom"><img class="img-gallery" src="images/gallery.jpeg" alt=""></div>
+           <div class="img-gallery-zoom"><img class="img-gallery" src="images/gallery (1).jpg" alt="" ></div>
+           <div class="img-gallery-zoom"><img class="img-gallery" src="images/gallery (2).jpeg" alt=""></div>
+           <div class="img-gallery-zoom"><img class="img-gallery" src="images/gallery (3).jpeg" alt=""></div>
+           <div class="img-gallery-zoom"><img class="img-gallery" src="images/gallery (4).jpeg" alt=""></div>
+           <div class="img-gallery-zoom"><img class="img-gallery" src="images/gallery (5).jpeg" alt=""></div>
+           <div class="img-gallery-zoom"><img class="img-gallery" src="images/gallery (6).jpeg" alt=""></div>
+           <div class="img-gallery-zoom"><img class="img-gallery" src="images/gallery (7).jpeg" alt=""></div>
+        </div>
+
+
+        <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <img id="img-modal" src="" alt="">
+                </div>
+              
+              </div>
+      </section>
+
+      <section id="team"class="section-center">
+          <h2 class="section-title main-color">Our team</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quia impedit nostrum iure quos placeat quisquam repellat ipsa vel eveniet, quae sed.</p>
+          <div class="grid">
+              <div class="team-grid">
+                 <div class="team-grid-element"><img class="team-img" src="images/team (2).jpeg" alt=""></div> 
+                 <div class="team-grid-element"><h3 class="section-inner-title main-color">Paul Simon</h3></div>
+                    <div class="team-grid-element"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas quisquam explicabo sit debitis!</p></div>
+                </div>
+              <div class="team-grid"> 
+                  <div class="team-grid-element"><img class="team-img" src="images/team (4).jpeg" alt=""></div>
+                   <div class="team-grid-element"><h3 class="section-inner-title main-color">Janette Crawl</h3></div> 
+                   <div class="team-grid-element"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit voluptates, sapiente temporibus, molestiae quo!</p></div>
+                </div>
+              <div class="team-grid">
+                   <div class="team-grid-element"><img class="team-img" src="images/team (3).jpeg" alt=""></div>
+                    <div class="team-grid-element"><h3 class="section-inner-title main-color">Samantha Evans</h3></div>
+                     <div class="team-grid-element"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perferendis libero!</p></div>
+                    </div>
+              <div class="team-grid"> 
+                  <div class="team-grid-element"><img class="team-img" src="images/team (1).jpeg" alt=""></div> 
+                  <div class="team-grid-element"><h3 class="section-inner-title main-color">Brad Lind</h3></div>
+                   <div class="team-grid-element"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Totam magni dolor quo ipsa?</p></div>
+                </div>
+          </div>
+      </section>
+
+      <section id="testimonials"class="slider2 section-wide">        
+        <button class="twitter-prev-btn twitter-slider-btn" onclick="prevSlide(twittElem, twittAct)"><div></div></button>
+        <button class="twitter-next-btn twitter-slider-btn" onclick="nextSlide(twittElem, twittAct)"><div></div></button>
+         <div id="twitter-slides">
+        <div class="twitter-slider"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, excepturi, commodi pariatur vel nisi nemo placeat veniam debitis id atque totam libero esse vitae accusantium, dolore eum sunt iste odit.</p></div>
+        <div class="twitter-slider"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, nesciunt qui magnam eius ex porro nemo. Veniam neque dignissimos eligendi maiores necessitatibus sequi, in consequatur sunt blanditiis illo aliquid porro.</p></div>
+        <div class="twitter-slider"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veniam placeat aliquam illo dicta vitae laudantium at recusandae corrupti accusamus similique sed facere nostrum deleniti quisquam quis nobis, magnam voluptas.</p>  </div>
+        </div>
+        <div class="twitter-dot-btns">
+      
+    </div>
+      </section>
+<section id="contact" class="section-center">
+<h2 class="section-title main-color">Contact us</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas, aperiam facilis amet aliquam, ducimus, repudiandae quaerat dolor odit error voluptatem sapiente illo autem! Esse corporis officia sapiente reiciendis voluptatem.</p>
+<div class="form">
+    <form class="contact-form" action="#" method="post">
+
+                    <div class="input-field">
+                        <input type="text" name="name" placeholder="Your name">
+
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" name="email" placeholder="Your e-mail">
+                        
+                    </div>
+                <div class="input-field">
+                    <textarea name="message" placeholder="Your message"rows="10"></textarea>
+                   
+                </div>
+                <input class="" type="submit" value="Send">
+           
+
+
+    </form>
+</div>
+
+</section>
+<section> <h3 class="section-title main-color"> Address</h3>
+    <div class="map">
+        <iframe class="iframe-map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.2810130192195!2d18.089494316045347!3d59.32826208165842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d54728c0769%3A0xf1f79fb0b3c99e2!2sGal%C3%A4rvarvsv%C3%A4gen+14%2C+115+21+Stockholm%2C+Sweden!5e0!3m2!1sen!2spl!4v1541763852773"  style="border:0" allowfullscreen>
+        
+        </iframe>
+    </div>
+    <div class="address">
+          
+           <div class="address-details">
+           <div> Galärvarvsvägen 14, </div>
+           <div> 115 21 Stockholm,</div>
+           <div>Sweden</div>
+           <div>Tel: <span>786 7668 654</span> </div>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+        <div class="icon-facebook social-icon" aria-hidden="true" data-icon="\ea90"></div>
+        <div class="icon-instagram social-icon" aria-hidden="true" data-icon="\ea92"></div>
+        <div class="icon-twitter social-icon" aria-hidden="true" data-icon="\ea96"></div>
+</footer>
+    </div>
+
+    <script>
+
+    window.addEventListener('scroll', onscroll)
+
+
+  window.onscroll = function() {    
+    fixedMenu(); 
+    detectId();
+    };
+
+let menu = document.querySelector('#nav')
+   function fixedMenu(){
+    if(window.scrollY >=10){
+            menu.classList.add('scroll');}
+        else  menu.className="";
+   };
+
+let position = 0;
+let elem=document.querySelector("#slides");
+let twittElem=document.querySelector("#twitter-slides");
+let img = document.querySelectorAll('.img-title');
+let act = document.querySelectorAll('.dot-btn');
+let twittAct = document.querySelectorAll('.twitter-dot-btn');
+
+
+   animacja();
+    function animacja() {
+       setInterval(nextClick,6000);
+      
+
+        }
+
+     btns();
+function btns(){
+    
+        act[0].addEventListener('click', function(){
+         
+            
+    position=0;
+    elem.className="";
+    elem.classList.add('i'+position);
+    act[position].classList.add('active');
+    act[position+1].classList.remove('active');
+    act[position+2].classList.remove('active');
+   
+         
+    });
+    act[1].addEventListener('click', function(){
+        
+position=1;
+elem.className="";
+elem.classList.add('i'+position);
+act[position].classList.add('active');
+act[position+1].classList.remove('active');
+    act[position-1].classList.remove('active');
+         
+    });
+    act[2].addEventListener('click', function(){
+        console.log('przy 2')
+position=2;
+elem.className="";
+elem.classList.add('i'+position);
+act[position].classList.add('active');
+act[position-1].classList.remove('active');
+    act[position-2].classList.remove('active');
+         
+    });
+}
+
+
+function nextClick(){
+    img.forEach(img => {
+        img.classList.remove('animate'); 
+  
+                             });                  
+
+    nextSlide(elem,act);
+    setTimeout(function(){  img.forEach(img => {
+        img.classList.add('animate'); 
+  
+                             });  }, 500);
+
+ }
+
+function nextSlide(elmnt,acti){
+    if(position < 2){
+    position++;
+    elmnt.className="";
+    elmnt.classList.add('i'+position);
+   
+
+  acti[position-1].classList.remove('active');
+   
+    
+    }
+    else if(position == 2){
+    position=position-2;
+    elmnt.className="";
+    elmnt.classList.add('i'+position);
+   acti[position+2].classList.remove('active');
+    }
+    acti[position].classList.add('active');
+  
+}
+
+function prevClick(){
+    img.forEach(img => {
+        img.classList.remove('animate'); 
+       
+     });
+
+
+prevSlide(elem,act);
+setTimeout(function(){
+    img.forEach(img => {
+        img.classList.add('animate'); 
+       
+     });
+},500)
+  
+}
+function prevSlide(elmnt,acti){
+    if(position > 0){
+    position--;
+    elmnt.className="";
+    elmnt.classList.add('i'+position);
+    acti[position+1].classList.remove('active');
+   
+  
+    }
+    else if(position == 0){
+    position=position+2;
+    elmnt.className="";
+    elmnt.classList.add('i'+position);
+    acti[position-2].classList.remove('active');
+    
+    }
+    acti[position].classList.add('active');
+}
+
+
+
+
+
+let gallery = document.querySelectorAll('.img-gallery');
+
+
+
+                             // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+
+let imgModal = document.getElementById('img-modal');
+
+gallery.forEach(gallery => { 
+    {
+        gallery.addEventListener('click', function(){
+           imgModal.src=gallery.src;
+           modal.style.display = "block";
+     
+     });
+
+
+  
+}
+                             });  
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}           
+ 
+
+
+let k1 = document.querySelector('#home').getBoundingClientRect();
+let k2 = document.querySelector('#designes').getBoundingClientRect();
+let k3 = document.querySelector('#features').getBoundingClientRect();
+let k4 = document.querySelector('#about').getBoundingClientRect();
+let k5 = document.querySelector('#gallery').getBoundingClientRect();
+let k6 = document.querySelector('#team').getBoundingClientRect();
+let k7 = document.querySelector('#testimonials').getBoundingClientRect();
+let k8 = document.querySelector('#contact').getBoundingClientRect();
+
+
+let aa = document.querySelectorAll('.navi');
+
+
+
+function detectId(){
+     if(k1.top+k1.height>=window.scrollY){
+    aa.forEach(aa => { 
+    
+    aa.classList.remove('on');
+ 
+ });
+    aa[0].classList.add('on');
+   
+}
+ else if(k2.top+k2.height>=window.scrollY){
+    aa.forEach(aa => { 
+    
+    aa.classList.remove('on');
+ 
+ });
+    aa[1].classList.add('on');
+   
+}
+else if(k3.top+k3.height>=window.scrollY){
+    aa.forEach(aa => { 
+    
+    aa.classList.remove('on');
+ 
+ });
+    aa[2].classList.add('on');
+}
+else if(k4.top+k4.height>=window.scrollY){
+    aa.forEach(aa => { 
+    
+    aa.classList.remove('on');
+ 
+ });
+    aa[3].classList.add('on');
+}
+
+else if(k5.top+k5.height>=window.scrollY){
+    aa.forEach(aa => { 
+    
+    aa.classList.remove('on');
+ 
+ });
+    aa[4].classList.add('on');
+}
+
+else if(k6.top+k6.height>=window.scrollY){
+    aa.forEach(aa => { 
+    
+    aa.classList.remove('on');
+ 
+ });
+    aa[5].classList.add('on');
+}
+
+else if(k7.top+k7.height>=window.scrollY){
+    aa.forEach(aa => { 
+    
+    aa.classList.remove('on');
+ 
+ });
+    aa[6].classList.add('on');
+}
+
+else if(k8.top+k8.height>=window.scrollY){
+    aa.forEach(aa => { 
+    
+    aa.classList.remove('on');
+ 
+ });
+    aa[7].classList.add('on');
+}
+
+
+
+
+}
+
+
+    </script>
+</body>
+</html>
