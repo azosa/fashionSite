@@ -219,8 +219,8 @@ button:focus {outline:0;}
     opacity: 0.7;
     border-radius: 50%;
     cursor: pointer;
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     background: transparent;
     
 }
@@ -242,16 +242,16 @@ left:80%;
 
 }
 .prev-btn>div{
-    margin: auto 5px;
-    border-top: 9px solid transparent;
-    border-bottom: 9px solid transparent; 
-    border-right:11px solid white; 
+    margin: auto -1px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent; 
+    border-right:8px solid white; 
 }
 .next-btn>div{
-    margin: auto 9px;
-    border-top: 9px solid transparent;
-    border-bottom: 9px solid transparent; 
-    border-left:11px solid white; 
+    margin: auto 1px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent; 
+    border-left:8px solid white; 
 }
 
 .i0{
@@ -290,16 +290,15 @@ left:80%;
 
 .dot-btns{
     display:flex;
- 
     flex-direction: row;
     position:absolute;
-    top:90%;
-    left:50%;
+    top:85%;
+    left:45%;
 
 }
 .dot-btn{
     margin: 10px;
-    padding:7px;
+    padding:5px;
     cursor: pointer;
     border:1px solid  rgb(131, 28, 50);
     border-radius: 50%;
