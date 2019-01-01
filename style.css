@@ -69,7 +69,10 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline; 
 }
-
+html{
+    
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     
@@ -265,25 +268,26 @@ left:80%;
 }
 
 .img-title{
+    font-size:1.3rem;
     position: absolute;
     z-index: 10;
     top:-300px;
     left:-10px;
 }
 .animate{
-    font-size:4rem;
+   
     font-weight: 600;
     color:rgb(131, 28, 50);
     position: absolute;
     z-index: 10;
-    top:200px;
-    left:140px;
+    top:20%;
+    left:15%;
     position: absolute;
     animation: textMove 1s ease-in-out;
 }
 @keyframes textMove{
     0%   {top: -300px; left: -10px;}
-    100% {top: 200px; left: 140px;}
+    100% {top: 20%; left: 15%;}
 }
 
 .dot-btns{
@@ -291,7 +295,7 @@ left:80%;
  
     flex-direction: row;
     position:absolute;
-    top:720px;
+    top:90%;
     left:50%;
 
 }
@@ -727,9 +731,12 @@ iframe{
         max-width: 40%;
         
     }
+   .img-title{
+        font-size: 2.6rem;
+    }
   
 } 
-
+ 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
@@ -738,32 +745,34 @@ iframe{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    .img-title{
+        font-size: 3.6rem;
+    }
 body{
-    font-size:2rem;
+    font-size:1.2rem;
 }
 p{
-    font-size:2rem;  
+    font-size:1.2rem;  
 }
 .section-center>p {
-    font-size:2rem;
+    font-size:1.2rem;
 }
 .navi{
-    font-size: 1.9rem;
+    font-size: 1.2rem;
 }
 .scroll > .navi{
-    font-size: 1.9rem;
+    font-size: 1.2rem;
 }
 .section-title{
-    font-size:2.9rem;
+    font-size:2.2rem;
     margin:40px;
 }
 .section-inner-title{
-    font-size: 1.9rem;}
+    font-size: 1.3rem;}
     .feature-icon{
         font-size: 4rem;}
         button{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
         input[type="submit"]  {
             font-size: 1.5rem;
