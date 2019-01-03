@@ -88,7 +88,7 @@ p{
 .main-color{
    color: rgb(131, 28, 50);
 }
-
+#nav{ background:#1d1e25;}
 
 
 .nav{
@@ -105,7 +105,7 @@ p{
    
 }
 .nav li{
-    padding:20px;
+    padding:10px;
    
 }
 .navi{
@@ -179,7 +179,7 @@ p{
     background-color: rgb(53, 52, 51);
     color:#d6cdc8;
     width: 100%;
-    height: 4%;
+    height: 8%;
     z-index:100;
     box-shadow:1px 2px 13px 5px rgba(31, 28, 28, 0.5);
     transition: all .3s linear; 
@@ -439,32 +439,32 @@ transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
 }
 
-/* Modal Content/Box */
+
 .modal-content {
     background-color: #fefefe;
-  margin:15% auto;/* 15% from the top and centered */
+  margin:15% auto;
     padding: 10px;
     border: 1px solid #888;
-width:80%;/* Could be more or less, depending on screen size */
+width:80%;
 }
 #img-modal{
     width:90%;
     height:auto;
 }
 
-/* The Close Button */
+
 .close {
     color: #aaa;
     float: right;
@@ -650,18 +650,6 @@ footer{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-   
-   
-}
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .team-grid {
     
@@ -715,10 +703,14 @@ iframe{
   
 } 
  
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 1042px) {
+    .nav li{
+        padding:20px;
+       
+    }
     #nav {
-        height: 6%; 
+        height: 8%; 
       }
       #nav #main-menu {
        
@@ -740,28 +732,27 @@ iframe{
 
 } 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .img-title{
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
 body{
-    font-size:1.2rem;
+    font-size:1rem;
 }
 p{
-    font-size:1.2rem;  
+    font-size:1rem;  
 }
 .section-center>p {
-    font-size:1.2rem;
+    font-size:1rem;
 }
 .navi{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .scroll > .navi{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .section-title{
-    font-size:2.2rem;
+    font-size:2rem;
     margin:40px;
 }
 .section-inner-title{
@@ -769,12 +760,12 @@ p{
     .feature-icon{
         font-size: 4rem;}
         button{
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
         input[type="submit"]  {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }input[type="text"],textarea{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
         .team-img{
     
